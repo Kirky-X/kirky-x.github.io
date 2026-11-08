@@ -278,7 +278,14 @@ a {
 }
 
 .card:hover,
-.card:focus-visible {
+.card:focus-within {
+  /* D-P1-2 inversion, done by re-scoping the semantic vars so every child
+     (desc, code chip, glyph, tags, buttons) flips coherently in one place. */
+  --text: var(--on-block);
+  --text-2: var(--on-block-2);
+  --fog: var(--on-block-2);
+  --line: var(--on-block-2);
+  --ghost: var(--block-ghost);
   background: var(--block);
   border-color: var(--block);
   color: var(--on-block);
@@ -309,13 +316,6 @@ a {
   transition: color var(--fast) ease;
 }
 
-.card:hover .cn,
-.card:hover .desc,
-.card:focus-visible .cn,
-.card:focus-visible .desc {
-  color: var(--on-block-2);
-}
-
 .card .meta {
   margin-top: auto;
   display: flex;
@@ -339,10 +339,6 @@ a {
   transition: color var(--fast) ease;
 }
 
-.card:hover .dl-lbl {
-  color: var(--on-block-2);
-}
-
 .card .crate-link {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -354,10 +350,6 @@ a {
 
 .card .crate-link:hover {
   color: var(--text);
-}
-
-.card:hover .crate-link {
-  color: var(--on-block-2);
 }
 
 .glyph {
@@ -380,11 +372,6 @@ a {
   border-radius: var(--radius-pill);
   padding: 3px 10px;
   transition: color var(--fast) ease, border-color var(--fast) ease;
-}
-
-.card:hover .lang-tag {
-  color: var(--on-block-2);
-  border-color: var(--on-block-2);
 }
 
 /* ---- sparkline ---- */
@@ -429,10 +416,6 @@ a {
   transition: color var(--fast) ease;
 }
 
-.card:hover .install code {
-  color: var(--on-block-2);
-}
-
 .copy {
   height: 32px;
   padding: 0 12px;
@@ -448,11 +431,6 @@ a {
 
 .copy:hover {
   color: var(--text);
-}
-
-.card:hover .copy {
-  color: var(--on-block-2);
-  border-color: var(--on-block-2);
 }
 
 /* ---- reveal (animation, not transition — hover transitions stay untouched) ---- */

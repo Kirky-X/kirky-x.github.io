@@ -14,6 +14,7 @@
   --on-block: #f8f8f8;
   --on-block-2: rgba(248, 248, 248, 0.72);
   --ghost: rgba(34, 34, 34, 0.05);
+  --block-ghost: rgba(248, 248, 248, 0.07); /* ghost tone inside the inverted ink block */
   --g1: #01311f;
   --g2: #034525;
   --g3: #0f6d31;
@@ -38,6 +39,7 @@
   --on-block: #141414;
   --on-block-2: rgba(20, 20, 20, 0.72);
   --ghost: rgba(236, 236, 234, 0.05);
+  --block-ghost: rgba(20, 20, 20, 0.06); /* ghost tone inside the inverted paper block */
   --g1: #0e4429;
   --g2: #006d32;
   --g3: #26a641;
