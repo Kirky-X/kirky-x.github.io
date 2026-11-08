@@ -1,0 +1,45 @@
+/* Kirky "Ink on Paper" — tokens from resume-web .maliang/DESIGN.md
+   D-P1-1 dual neutral palette · D-P1-2 accent = ink/paper inversion · D-P1-3 1px lines, no shadows
+   D-P3-1 radii · D-P3-3 motion ≤400ms, transform/opacity only, reduced-motion degrades
+   Recorded color exception: contribution-ramp greens appear ONLY inside data marks
+   (sparklines) — an extension of D-P1-4 "color lives inside images/data", never on UI chrome. */
+:root {
+  --bg: #f8f8f8;
+  --surface: #ffffff;
+  --text: #222222;
+  --text-2: #565656;
+  --fog: #7b7b7b; /* UI-safe 3:1 — labels, icons, large text only */
+  --line: #e4e4e4;
+  --block: #222222; /* D-P1-2 inversion block */
+  --on-block: #f8f8f8;
+  --on-block-2: rgba(248, 248, 248, 0.72);
+  --ghost: rgba(34, 34, 34, 0.05);
+  --g1: #01311f;
+  --g2: #034525;
+  --g3: #0f6d31;
+  --g4: #0f8a3c;
+  --radius-card: 16px;
+  --radius-input: 12px;
+  --radius-pill: 9999px;
+  --fast: 200ms;
+  --base: 320ms;
+  --font-sans: ui-sans-serif, system-ui, 'Segoe UI', 'Helvetica Neue', 'Noto Sans SC', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace;
+}
+
+:root[data-theme='dark'] {
+  --bg: #141414;
+  --surface: #1c1c1c;
+  --text: #ececea;
+  --text-2: #a8a8a4;
+  --fog: #8a8a86;
+  --line: #2a2a2a;
+  --block: #f8f8f8;
+  --on-block: #141414;
+  --on-block-2: rgba(20, 20, 20, 0.72);
+  --ghost: rgba(236, 236, 234, 0.05);
+  --g1: #0e4429;
+  --g2: #006d32;
+  --g3: #26a641;
+  --g4: #39d353;
+}

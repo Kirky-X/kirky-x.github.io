@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kirky — Rust libraries & open source</title>
+    <meta
+      name="description"
+      content="Domain-specific Rust libraries and open-source skills. The hard parts are handled once at the library layer, and everything downstream inherits them."
+    />
+    <script>
+      // theme boot: stored preference wins, else system — applied before paint to avoid FOUC
+      try {
+        var t = localStorage.getItem('kirky-theme')
+        if (t !== 'dark' && t !== 'light') {
+          t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+        document.documentElement.dataset.theme = t
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+{
+  "syncedAt": "2026-11-08T16:52:03.309Z",
+  "crates": {
+    "oxcache": {
+      "downloads": 14573,
+      "spark": [
+        135,
+        561,
+        1588,
+        542,
+        185,
+        2297,
+        183,
+        1287,
+        181,
+        1024
+      ]
+    },
+    "trait-kit": {
+      "downloads": 13470,
+      "spark": [
+        681,
+        443,
+        79,
+        1732,
+        786,
+        210,
+        1671,
+        2076,
+        186,
+        959
+      ]
+    },
+    "confers": {
+      "downloads": 11004,
+      "spark": [
+        394,
+        1397,
+        749,
+        137,
+        160,
+        11,
+        1826,
+        2152,
+        1188,
+        23
+      ]
+    },
+    "inklog": {
+      "downloads": 9930,
+      "spark": [
+        463,
+        120,
+        1543,
+        36,
+        314,
+        72,
+        1461,
+        1765,
+        190,
+        695
+      ]
+    },
+    "limiteron": {
+      "downloads": 9320,
+      "spark": [
+        795,
+        642,
+        351,
+        210,
+        1116,
+        471,
+        1976,
+        1427,
+        11,
+        765
+      ]
+    },
+    "dbnexus": {
+      "downloads": 8227,
+      "spark": [
+        508,
+        390,
+        186,
+        1173,
+        344,
+        14,
+        15,
+        823,
+        1763,
+        574
+      ]
+    },
+    "zenith": {
+      "downloads": 7662,
+      "spark": [
+        1426,
+        6235
+      ]
+    },
+    "sdforge": {
+      "downloads": 7053,
+      "spark": [
+        532,
+        492,
+        378,
+        65,
+        1176,
+        143,
+        15,
+        816,
+        1463,
+        670
+      ]
+    },
+    "garrison": {
+      "downloads": 2531,
+      "spark": [
+        19,
+        23,
+        19,
+        144,
+        427,
+        575,
+        180,
+        908,
+        236
+      ]
+    },
+    "vecboost": {
+      "downloads": 494,
+      "spark": [
+        16,
+        17,
+        25,
+        17,
+        63,
+        212,
+        68,
+        76
+      ]
+    },
+    "codenexus": {
+      "downloads": 284,
+      "spark": [
+        21,
+        24,
+        23,
+        21,
+        19,
+        19,
+        31,
+        53,
+        14,
+        19
+      ]
+    },
+    "crawlrs": {
+      "downloads": 246,
+      "spark": [
+        20,
+        84,
+        142
+      ]
+    },
+    "calnexus": {
+      "downloads": 98,
+      "spark": [
+        24,
+        22,
+        13,
+        14,
+        10,
+        15
+      ]
+    },
+    "ciphern": {
+      "downloads": 61,
+      "spark": [
+        24,
+        37
+      ]
+    },
+    "nebulaid": {
+      "downloads": 53,
+      "spark": [
+        13,
+        26,
+        14
+      ]
+    },
+    "xlink": {
+      "downloads": 31,
+      "spark": [
+        31
+      ]
+    },
+    "fluxweir": {
+      "downloads": 11,
+      "spark": [
+        11
+      ]
+    },
+    "alchemize": {
+      "downloads": 10,
+      "spark": [
+        10
+      ]
+    }
+  },
+  "skills": {
+    "maliang": {
+      "version": "0.4.3"
+    },
+    "tiangang": {
+      "version": "0.2.7"
+    },
+    "diting": {
+      "version": "0.1.7"
+    },
+    "kueiku": {
+      "version": "0.1.16"
+    },
+    "cangjie": {
+      "version": "0.3.6"
+    },
+    "dayv": {
+      "version": "0.1.6"
+    },
+    "liuxiang": {
+      "version": "0.1.9"
+    },
+    "lizhu": {
+      "version": "0.1.1"
+    },
+    "ouyezi": {
+      "version": "0.1.6"
+    },
+    "pangu": {
+      "version": "0.1.10"
+    },
+    "specmark": {
+      "version": "0.2.8"
+    },
+    "wudaozi": {
+      "version": "0.3.5"
+    },
+    "xizhi": {
+      "version": "0.1.3"
+    },
+    "element-dev": {
+      "version": "0.1.5"
+    },
+    "flutter-dev": {
+      "version": "0.1.7"
+    },
+    "hap-dev": {
+      "version": "0.1.8"
+    },
+    "pua": {
+      "version": "0.1.10"
+    }
+  }
+}
